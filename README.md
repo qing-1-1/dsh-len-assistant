@@ -1,6 +1,6 @@
 # dsh-len-assistant
 
-面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的**联想专业工具集**。
+面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的**工具集**。
 把联想服务体系里的专业判断能力——硬件诊断、备件、保修、服务网点——做成通用 agent 平台上可安装的插件。
 
 当前状态：**试点阶段**。电池工具组保留原实现；另已迁入 Windows 设备、性能、存储、Wi-Fi、应用查询、报告和受控操作能力，等待真实 DSH 运行时验证。
