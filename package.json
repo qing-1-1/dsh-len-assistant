@@ -1,0 +1,53 @@
+{
+  "name": "dsh-len-assistant",
+  "version": "0.1.0",
+  "description": "Lenovo device diagnostics and service assistant for DeepSeek Harness, including battery health, Windows device, performance, storage, Wi-Fi, app diagnostics and safe actions.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "cordis.patch.yml",
+    ".dsh/skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.1.1 || >=0.1.1-rc.1 <0.2.0-0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "lenovo",
+    "battery-health",
+    "windows-diagnostics",
+    "wifi-diagnostics",
+    "device-diagnostics",
+    "service-assistant",
+    "toolkit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qing-1-1/dsh-len-assistant.git"
+  },
+  "homepage": "https://github.com/qing-1-1/dsh-len-assistant#readme",
+  "bugs": {
+    "url": "https://github.com/qing-1-1/dsh-len-assistant/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "sync-skill": "bash scripts/sync-skill.sh"
+  }
+}
