@@ -41,8 +41,7 @@
 详见 **[docs/tools/battery-health.md](docs/tools/battery-health.md)**。
 
 ### Windows 设备助手
-
-从想帮帮 Device MCP 迁入 14 个非电池工具，保持原来的结构化状态、隐私最小化和操作确认边界：
+非电池工具，保持原来的结构化状态、隐私最小化和操作确认边界：
 
 - 设备、性能、进程、存储和应用查询；
 - Wi-Fi 状态、基础诊断和 5～60 秒网络波动监测；
