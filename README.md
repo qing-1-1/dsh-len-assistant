@@ -58,7 +58,7 @@
 ### 作为 DSH 插件
 
 ```bash
-dsh plugin --profile web add github:1Ecc/dsh-len-assistant
+dsh plugin --profile web add github:qing-1-1/dsh-len-assistant
 ```
 
 装完重启 `dsh web` 并刷新页面。插件包内自带 skill 资源，不额外装 skill 也能工作。
